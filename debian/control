@@ -12,8 +12,7 @@ Homepage: https://github.com/pop-os/gnome-shell-extension-cosmic-dock
 
 Package: gnome-shell-extension-cosmic-dock
 Architecture: all
-Depends: gnome-shell (<< 3.39),
-         gnome-shell (>= 3.35.90),
+Depends: gnome-shell (>= 3.35.90),
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: gnome-shell-extension-dashtodock,
